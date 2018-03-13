@@ -28,7 +28,7 @@ apis:
   tags: Community
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/community/master/_listings/datagov/datasets-dataset-upload-community-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/community/master/_listings/datagov/me-org-community-resources-get.md
 x-common:
 - type: x-blog
   url: https://www.data.gov/meta/

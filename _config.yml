@@ -1,10 +1,10 @@
-title: Streamdata Gallery Community
-url: community.streamdata.gallery
-tag: Community
+title: Streamdata Gallery Communities
+url: communities.streamdata.gallery
+tag: Communities
 markdown: kramdown
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
 github_user: streamdata-gallery
-github_repo: community
+github_repo: communities
 github_branch: master
 collections:
   listings:

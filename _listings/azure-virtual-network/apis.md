@@ -1,32 +1,44 @@
 ---
 name: Azure Virtual Network
+x-slug: azure-virtual-network
 description: Azure Virtual Network lets you create private networks in the cloud with
   full control over IP addresses, DNS servers, security rules, and traffic flows.
   Securely connect a virtual network to on-premises networks by using a VPN tunnel,
   or connect privately by using the ExpressRoute service.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-network-topology.png
 x-kinRank: "10"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Network
-- Microsoft
-created: "2018-05-13"
-modified: "2018-05-13"
+x-alexaRank: "0"
+tags: Communities
+created: "2018-06-18"
+modified: "2018-06-18"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/communities/master/_listings/azure-virtual-network/apis.md
 specificationVersion: "0.14"
 apis:
 - name: Azure Virtual Network API Bgp Service Communities List
+  x-api-slug: azure-virtual-network-api
   description: Gets all the available bgp service communities.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-network-topology.png
   humanURL: https://azure.microsoft.com/en-us/services/virtual-network/
-  baseURL: http:://management.azure.com//
+  baseURL: ://management.azure.com////subscriptions/{subscriptionId}/providers/Microsoft.Network/bgpServiceCommunities
+  tags: Bgp Service Communities
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/communities/master/_listings/azure-virtual-network/subscriptionssubscriptionidprovidersmicrosoft-networkbgpservicecommunities-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/communities/master/_listings/azure-virtual-network/subscriptionssubscriptionidprovidersmicrosoft-networkbgpservicecommunities-get-openapi.md
+- name: Azure Virtual Network API
+  x-api-slug: azure-virtual-network-api
+  description: Azure Virtual Network lets you create private networks in the cloud
+    with full control over IP addresses, DNS servers, security rules, and traffic
+    flows. Securely connect a virtual network to on-premises networks by using a VPN
+    tunnel, or connect privately by using the ExpressRoute service.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-network-topology.png
+  humanURL: https://azure.microsoft.com/en-us/services/virtual-network/
+  baseURL: ://management.azure.com//
   tags: Communities
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/communities/master/_listings/azure-virtual-network/subscriptions-subscriptionid-providers-microsoft-network-bgpservicecommunities-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/communities/master/_listings/azure-virtual-network/subscriptions-subscriptionid-providers-microsoft-network-bgpservicecommunities-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/communities/master/_listings/azure-virtual-network/openapi.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/virtual-network/
